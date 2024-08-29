@@ -1,103 +1,173 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.8">
-  <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1223" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-1" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-24" target="C-vyLk0tnHw3VtMMgP7b-6" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="340" y="720" as="sourcePoint" />
-            <mxPoint x="440" y="620" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-12" value="" style="edgeStyle=entityRelationEdgeStyle;endArrow=ERzeroToMany;startArrow=ERone;endFill=1;startFill=0;" parent="1" source="C-vyLk0tnHw3VtMMgP7b-3" target="C-vyLk0tnHw3VtMMgP7b-17" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="400" y="180" as="sourcePoint" />
-            <mxPoint x="460" y="205" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-2" value="Orders" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="120" width="250" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-3" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-4" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-5" value="order_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-3" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-6" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-7" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-8" value="customer_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-6" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-9" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-2" vertex="1">
-          <mxGeometry y="90" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-10" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-11" value="order_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-9" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-13" value="Shipments" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="280" width="250" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-14" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-15" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-16" value="shipment_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-14" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-17" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-18" value="FK1" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-19" value="order_id int NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-17" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-20" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-13" vertex="1">
-          <mxGeometry y="90" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-21" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-22" value="shipment_date date NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-23" value="Customers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="120" width="250" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-24" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
-          <mxGeometry y="30" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-25" value="PK" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-26" value="customer_id int NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;" parent="C-vyLk0tnHw3VtMMgP7b-24" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-27" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="C-vyLk0tnHw3VtMMgP7b-23" vertex="1">
-          <mxGeometry y="60" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-28" value="" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
-          <mxGeometry width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-29" value="customer_name char(50) NOT NULL" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="C-vyLk0tnHw3VtMMgP7b-27" vertex="1">
-          <mxGeometry x="30" width="220" height="30" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-</mxfile>
+CREATE DATABASE rac_ar;
+USE rac_ar;
+
+CREATE TABLE CLIENTE(
+id_cliente INT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(20),
+apellido VARCHAR(20),
+documento VARCHAR(11),
+mail VARCHAR(100),
+calificacion INT,
+preferencias VARCHAR(254),
+historial_de_alquiler VARCHAR(254),
+medio_de_pago_preferido VARCHAR(50),
+PRIMARY KEY (id_cliente)
+) COMMENT 'INFORMACION BASICA DEL CLIENTE';
+
+CREATE TABLE FLOTA_DE_AUTOS(
+id_auto INT NOT NULL AUTO_INCREMENT,
+marca VARCHAR(20),
+modelo VARCHAR(20),
+tipo_de_auto VARCHAR(20),
+estado_mecanico VARCHAR(20),
+calificacion INT NOT NULL,
+disponibilidad BOOLEAN,
+reparaciones_ealizadas TEXT,
+id_sucursal INT,
+PRIMARY KEY (id_auto)
+) COMMENT 'INFORMACION DE LA FLOTA DE AUTOS';
+
+CREATE TABLE SUCURSALES(
+id_sucursal INT NOT NULL AUTO_INCREMENT,
+nombre_sucursal VARCHAR(50),
+tipo_sucursal VARCHAR(50),
+direccion VARCHAR(100),
+telefono VARCHAR(15),
+PRIMARY KEY (id_sucursal)
+) COMMENT 'INFORMACION DE SUCURSALES Y FLOTA INTERNA';
+
+CREATE TABLE PAGO(
+id_pago INT NOT NULL AUTO_INCREMENT,
+monto DECIMAL(10,2),
+fecha_transaccion DATE DEFAULT(CURRENT_DATE),
+metodo_pago VARCHAR(30),
+tipo_factura VARCHAR(10),
+reembolsos DECIMAL(10,2),
+acuerdos_bancarios TEXT,
+PRIMARY KEY (id_pago)
+) COMMENT 'INFORMACION SOBRE EL PAGO DEL SERVICIO';
+
+CREATE TABLE TECNICO_REVISION(
+id_tecnico INT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(30),
+especialidad VARCHAR(100),
+historial_revisiones TEXT,
+referencias_revisiones TEXT,
+PRIMARY KEY (id_tecnico)
+) COMMENT 'INFORMACION SOBRE LOS TECNICOS QUE REVISAN LOS AUTOS ENTREGADOS';
+
+CREATE TABLE COTIZACIONES_Y_TARIFAS(
+id_tarifa INT NOT NULL AUTO_INCREMENT,
+tipo_de_auto VARCHAR(30),
+precio_diario DECIMAL(10,2),
+promociones_especiales TEXT,
+servicios_adicionales TEXT,
+costo_serv_adic DECIMAL(10,2),
+id_auto INT,
+PRIMARY KEY(id_tarifa)
+) COMMENT 'INFORMACION TARIFARIA';
+
+CREATE TABLE INCIDENCIAS(
+id_reclamo INT NOT NULL AUTO_INCREMENT,
+id_alquiler INT,
+descripcion_reclamo TEXT,
+fecha_reclamo DATETIME DEFAULT(CURRENT_TIMESTAMP),
+resolucion TEXT,
+estado_abierto_cerrado BOOLEAN,
+PRIMARY KEY (id_reclamo)
+) COMMENT 'INFORMACION SOBRE INCIDENCIAS';
+
+CREATE TABLE EMPLEADOS(
+id_empleado INT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(30),
+puesto VARCHAR(20),
+historia_laboral TEXT,
+fecha_contrato DATE DEFAULT(CURRENT_DATE),
+evaluacion_performance TEXT,
+funciones_responsabilidades TEXT,
+capacitaciones TEXT,
+id_sucursal INT,
+PRIMARY KEY(id_empleado)
+) COMMENT 'INFORMACION DE LOS EMPLEADO';
+
+CREATE TABLE HISTORIA_ALQUI_DEVOL(
+id_historial INT NOT NULL AUTO_INCREMENT,
+id_alquiler INT,
+fecha_devolucion DATETIME DEFAULT(CURRENT_TIMESTAMP),
+estatus_devolucion VARCHAR(20),
+incidencias_reparadas TEXT,
+estatus_combustible VARCHAR(20),
+kilometraje INT,
+PRIMARY KEY (id_historial)
+) COMMENT 'INFORMACION HISTORIA DE ALQUILERES';
+
+CREATE TABLE PROVEEDORES(
+id_proveedor INT NOT NULL AUTO_INCREMENT,
+nombre VARCHAR(30),
+tipo_acuerdo VARCHAR(50),
+detalle_acuerdo TEXT,
+contacto VARCHAR(15),
+Id_sucursal INT,
+PRIMARY KEY (id_proveedor)
+) COMMENT 'INFORMACION SOBRE PROVEEDORES';
+
+CREATE TABLE REVISION(
+id_revision INT NOT NULL AUTO_INCREMENT,
+fecha_revision DATE DEFAULT(CURRENT_DATE),
+descripcion_problema TEXT,
+resultado TEXT,
+id_auto INT,
+id_tecnico INT,
+PRIMARY KEY (id_revision)
+) COMMENT 'INFORMACION SOBRE LAS REVISIONES QUE TIENEN LOS AUTOS';
+
+CREATE TABLE ALQUILERES(
+id_alquiler INT NOT NULL AUTO_INCREMENT,
+fecha_inicio DATETIME DEFAULT(CURRENT_TIMESTAMP),
+fecha_fin DATETIME DEFAULT(CURRENT_TIMESTAMP),
+monto_total DECIMAL(10,2),
+id_cliente INT,
+id_auto INT,
+id_pago INT,
+PRIMARY KEY (id_alquiler)
+) COMMENT 'TABLA LOGICA DE LA RENTADORA';
+
+ALTER TABLE COTIZACIONES_Y_TARIFAS
+		ADD CONSTRAINT fk_cotiz_auto
+    FOREIGN KEY (id_auto) REFERENCES FLOTA_DE_AUTOS(id_auto);
+    
+ALTER TABLE INCIDENCIAS
+		ADD CONSTRAINT fk_reclamo_alquiler
+	FOREIGN KEY (id_alquiler) REFERENCES ALQUILERES(id_alquiler);
+
+ALTER TABLE EMPLEADOS
+		ADD CONSTRAINT fk_empleado_sucursal
+	FOREIGN KEY (id_sucursal) REFERENCES SUCURSALES(id_sucursal);
+    
+ALTER TABLE PROVEEDORES
+		ADD CONSTRAINT fk_provee_sucursal
+	FOREIGN KEY (id_sucursal) REFERENCES SUCURSALES(id_sucursal);
+    
+ALTER TABLE HISTORIA_ALQUI_DEVOL
+		ADD CONSTRAINT fk_hist_alquiler
+	FOREIGN KEY (id_alquiler) REFERENCES ALQUILERES(id_alquiler);
+    
+ALTER TABLE REVISION
+		ADD CONSTRAINT fk_revision_auto
+	FOREIGN KEY (id_auto) REFERENCES FLOTA_DE_AUTOS(id_auto);
+    
+ALTER TABLE REVISION
+		ADD CONSTRAINT fk_revision_tecnico
+	FOREIGN KEY (id_tecnico) REFERENCES TECNICO_REVISION (id_tecnico);
+    
+ALTER TABLE ALQUILERES
+		ADD CONSTRAINT fk_alquiler_cliente
+	FOREIGN KEY (id_cliente) REFERENCES CLIENTE(id_cliente);
+    
+ALTER TABLE ALQUILERES
+		ADD CONSTRAINT fk_alquiler_auto
+	FOREIGN KEY (id_auto) REFERENCES FLOTA_DE_AUTOS(id_auto);
+    
+ALTER TABLE ALQUILERES
+		ADD CONSTRAINT fk_alquiler_pago
+	FOREIGN KEY (id_pago) REFERENCES PAGO(id_pago);
